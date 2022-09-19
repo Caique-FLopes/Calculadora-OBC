@@ -127,3 +127,157 @@ type - diz qual o tipo de dados queremos receber
 name - identificar o campo no servidor
 
 required - diz ao browser se é obrigatorio preencer ou não
+
+
+CSS3
+
+Utilizado para criar estilo de HTML
+
+
+sintax:
+
+seletor  -  declaração
+
+  h1     { color: blue;  }
+        propriedade e valor
+
+
+seletores 
+
+ID
+
+# nome-da-tag
+
+
+classe 
+
+. nome-da-classe
+
+
+Alguns estilos
+
+
+color: nome da cor ou hexadecimal
+
+background-color
+
+font-size
+
+
+Box model
+
+caixa que envolve os elementos do HTML
+
+sendo: margem, borda, preenchimeno
+
+margin-top
+       bottom
+       right
+       left
+
+padding -- 
+
+
+
+tres maneiras de incluir o documento css
+
+inline
+
+<h1 style="color:blue;">
+
+
+separado no head
+
+<head>
+  <style>
+  </style>
+<head>
+
+em outro arquivo
+
+<head>
+  <link rel="stylesheet' href="style.css">
+<head>
+
+
+Pseudo classes
+
+mudar o estilo definindo o estado
+
+
+a:visited
+a:hover
+a:active
+
+
+
+variaveis no css
+
+sao entidades definidas por desenvolvedores contendo valores especificos para 
+serem utilizados ao longo do documento
+
+:root{
+--nome-da-var
+}
+
+color:var(--nome-da-var);
+
+
+para importar url
+
+@import url(https://sua.url)
+
+
+
+margin:auto centraliza usando o seu espaço
+
+
+box-shadow para criar sombra
+
+
+JavaScript
+
+
+inicialmente criada para dar instruções ao browser, mas atualmente sendo mais 
+roubusto que isso
+
+Ferramentas
+
+React - para paginas web
+
+React Native - Para apps mobile
+
+Electron - Apps desktop multiplataformas
+
+NodeJS - JavaScript no servidor
+
+
+Instruções ao browser usando recursos nativos
+
+alert("mensagem")
+
+console.log"("log")
+
+
+document
+
+o document é um objeto javascript que nos permite interagir com qualquer elemento 
+da nossa pagina
+
+no HTML:
+
+<p id="demo"></p>
+
+no JavaScript:
+
+document.getElementById('demo').innerHTML="HELLO JAVASCRIPT";
+
+
+Mudança de estilos elementos
+
+No HTML <p id="demo">Mudando o estilo</p> 
+
+
+no JS
+
+document.getElementById('demo').style.fontSize="35px";
