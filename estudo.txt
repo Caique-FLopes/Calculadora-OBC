@@ -1,0 +1,129 @@
+Start One bit Code
+
+
+HTML5 
+
+O uso de tags para poder definir o que sera exibido na tela
+
+<tag> conteudo </tag>
+
+ou 
+
+<img src=link /> (casos de fechamento na propria tag que nao precisam de conteudo)
+
+
+Tags principais
+
+<h1>
+
+mostra o texto como o titulo principal da pagina
+(podendo ir ate o h6 em nivel semantico)
+
+<p>
+
+mostra um texto como um paragrafo
+
+
+<div>
+
+serve para envolver diversos elementos do codigo, assim aplicar estilo a eles com o CSS 
+(geralmente os browsers pulam uma linha para separar os elementos de uma div e os demais).
+Mas não apresentam nenhuma mudança visual na pagina.
+
+
+<span>
+
+é semelhante a div, ela serve para envolver um ou mais elementos sem apresentar mudança
+visual, a principal diferença é a quebra de linha.
+
+
+<ul>
+
+serve para incluir uma lista nao ordenada de elementos na pagina
+
+<ol>
+
+listas ordenadas
+
+<li>
+
+itens de uma lista
+
+
+Tags com atributos
+
+<a href="">
+
+serve para criarmos um link entre as paginas
+
+<img src="">
+
+seve para adicionar uma imagem a pagina
+
+anatomia de documento
+
+estrutura base
+
+<!DOCTYPE html>
+
+indica o tipo de arquivo
+
+<html lang="">
+
+tag raiz do documento
+traz o atributo lang
+
+<head>
+
+tag que envolve totas as tags que não sao mostradas na pagina mas que tem sua importancia
+
+<body>
+
+as tags que sao mostradas na pagina
+
+meta tags
+<meta charset="utf-8">
+
+para denominar o padrao encode (binaria)
+
+<meta name="description" content="descricao">
+
+indicar uma descrição da pagina a ser exibida no motor de busca
+
+
+<meta name="author" content="Caique Fernandes">
+
+indicar autor
+
+
+Formularios
+
+<form action="" method="get/post">
+
+permite submeter informações para um servidor, ou seja, dados para um banco de dados
+
+
+action - informa qual URL do servidor onde vamos submeter as informaçoes
+
+method - diz qual metodo usar (get ou post)
+
+
+<label for="q">
+informa o nome do campo
+
+for - aponta o ID do input
+
+
+
+<input type="text" name ="q" required>
+
+<input type="submit" value="Buscar!">
+campo para digitar
+
+mostrar o campo de entrada de dados
+
+type - diz qual o tipo de dados queremos receber
+
+name - identificar o campo no servidor
+
+required - diz ao browser se é obrigatorio preencer ou não
